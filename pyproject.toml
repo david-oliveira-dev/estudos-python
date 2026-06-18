@@ -1,0 +1,22 @@
+[project]
+name = "estudos-python"
+version = "1.0.0"
+description = "Trilha completa de estudos de Python, do básico até a construção de uma API com FastAPI."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "David Oliveira", email = "davidoliveira.devbr@gmail.com" }]
+keywords = ["python", "estudos", "poo", "api", "fastapi", "aprendizado"]
+
+[project.urls]
+Repository = "https://github.com/david-oliveira-dev/estudos-python"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+# Os notebooks são material de estudo (mostram código em evolução);
+# o lint foca no código de produção (.py), como o capstone da API.
+extend-exclude = ["*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]

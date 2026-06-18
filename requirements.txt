@@ -1,0 +1,10 @@
+# Dependências usadas nos notebooks de API e no projeto capstone.
+# A maior parte do estudo (notebooks 01 a 12) usa só a biblioteca padrão.
+
+# Notebook 13 — consumindo APIs
+requests==2.31.0
+
+# Notebook 14 + capstone (api/) — construindo uma API
+fastapi==0.111.0
+uvicorn==0.30.1
+httpx==0.27.0          # usado pelo TestClient nos testes da API
