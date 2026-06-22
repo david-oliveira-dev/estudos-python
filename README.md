@@ -62,3 +62,8 @@ python -m unittest discover -s api -p "test_*.py" -v
 - **Testes:** `unittest` (biblioteca padrão)
 - **CI:** GitHub Actions roda lint + validação dos notebooks + testes da API em
   Python 3.11 e 3.12 a cada push.
+
+## 📫 Contato
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-oliveira-9970a42a5)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/david-oliveira-dev)
